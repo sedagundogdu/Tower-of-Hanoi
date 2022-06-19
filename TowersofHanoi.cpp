@@ -99,7 +99,7 @@ if(numDisks%2 == 0){ // If number of disks is even number
             source.push(destination.top());
             destination.pop();
         }
-
+        
         else{  // if both are not empty then smaller disk should come top of the big one
 
             if(destination.top() > source.top()){
